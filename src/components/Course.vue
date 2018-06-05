@@ -41,6 +41,7 @@
         }).then(function (ret) {
           console.log(ret.data);
           if (ret.data.code === 1000) {
+            console.log(ret.data);
             that.courseList = ret.data.data
           }
         }).catch(function (ret) {

@@ -50,7 +50,7 @@ export default new Router({
 
     {
       path: '/other/:id',
-      name: 'micro_course_detail',
+      name: 'microcoursedetail',
       component:MicroDetail,
     },
 
